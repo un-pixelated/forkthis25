@@ -1,3 +1,16 @@
 a = int(input())
 b = int(input())
-print(a + b)
+op = input('Operation (+ - * / // ^): ')
+
+if op == '+':
+    print(a + b)
+elif op == '-':
+    print(a - b)
+elif op == '*':
+    print(a * b)
+elif op == '/':
+    print(a / b)
+elif op == '//':
+    print(a // b)
+elif op == '^':
+    print(a ** b)
